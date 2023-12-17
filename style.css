@@ -5,21 +5,9 @@ header {
     padding: 30px;
 }
 
-h1 {
-    margin: 70px auto;
-    font-size: 70px;
-    text-align: center;
-}
 
-h2 {
-    font-size: 64px;
-    text-align: center;
-}
 
-.img-f {
-    height: 700px;
-    width: 1100px;
-}
+
 
 .div1 {
     display: flex;
@@ -60,7 +48,23 @@ section {
     justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 501px) {
+
+    h1 {
+        margin: 70px auto;
+        font-size: 70px;
+        text-align: center;
+    }
+    
+h2 {
+    font-size: 64px;
+    text-align: center;
+} 
+
+    .img-f {
+        height: 700px;
+        width: 1100px;
+    }
 
     section {
         padding: 0 120px;
@@ -137,20 +141,31 @@ section {
         display: flex;
 
     }
+    .is {
+        height: 500px;
+        width: 500px;
+    }
 }
 
-.is {
-    height: 500px;
-    width: 500px;
-}
+
 
 .img-last {
     width: 100%;
 }
 
 @media screen and(max-width: 500px){
+
+
+    h1 {
+        margin: 40px auto;
+        font-size: 40px;
+        text-align: center;
+    }
+
     h2{
-        font-size: 60px;
+        font-size: 50px;
+        text-align: center; 
+        margin: 10px auto;   
     }
 
     
@@ -185,5 +200,5 @@ section {
 }
 
 img{
-    width: 500px;
+    width: 320px;
 }
